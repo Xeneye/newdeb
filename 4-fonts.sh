@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt install 
+sudo apt install fonts-cantarell fonts-hack fonts-hack-otf fonts-hack-ttf fonts-hack-web ttf-mscorefonts-installer fonts-noto fonts-powerline fonts-font-awesome fonts-lmodern
