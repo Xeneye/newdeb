@@ -1,5 +1,4 @@
 #!/bin/sh
 
-wget "https://discordapp.com/api/download?platform=linux&format=deb" -O ~/Downloads/discord.deb
-cd ~/Downloads
-gdebi discord.deb
+wget "https://discordapp.com/api/download?platform=linux&format=deb" -O ~/freshdebian/discord.deb
+sudo gdebi discord.deb
