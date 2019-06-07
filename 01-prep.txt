@@ -6,6 +6,28 @@
 ## replace stretch with testing and add ##
 contrib non-free
 
+#------------------------------------------------------------------------------#
+#                   OFFICIAL DEBIAN REPOS (TESTING)                    
+#------------------------------------------------------------------------------#
+
+###### Debian Main Repos
+deb http://deb.debian.org/debian/ testing main contrib non-free
+deb-src http://deb.debian.org/debian/ testing main contrib non-free
+
+deb http://deb.debian.org/debian/ testing-updates main contrib non-free
+deb-src http://deb.debian.org/debian/ testing-updates main contrib non-free
+
+deb http://deb.debian.org/debian-security testing/updates main
+deb-src http://deb.debian.org/debian-security testing/updates main
+
+#------------------------------------------------------------------------------#
+#                   OFFICIAL DEBIAN REPOS (SID)                   
+#------------------------------------------------------------------------------#
+
+###### Debian Main Repos
+deb http://deb.debian.org/debian/ unstable main contrib non-free
+deb-src http://deb.debian.org/debian/ unstable main contrib non-free
+
 dpkg --add-architecture i386
 
 ## system.d cache tweaks
