@@ -1,4 +1,4 @@
-## all to be done as sudo su ##
+## all to be done as sudo ##
 
 ## change source to testing ##
 /etc/apt/sources.list
@@ -29,15 +29,6 @@ deb http://deb.debian.org/debian/ unstable main contrib non-free
 deb-src http://deb.debian.org/debian/ unstable main contrib non-free
 
 dpkg --add-architecture i386
-
-## system.d cache tweaks
-/etc/sysctl.d/99-sysctl.conf
-
-## add to the bottom
-vm.swappiness = 10
-vm.vfs_cache_pressure = 50
-vm.watermark_scale_factor = 200
-vm.dirty_ratio = 3
 
 apt update && apt upgrade && apt dist-upgrade && apt autoremove && apt autoclean
 
