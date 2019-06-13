@@ -1,5 +1,0 @@
-dpkg --add-architecture i386
-
-apt update && apt upgrade && apt dist-upgrade && apt autoremove && apt autoclean
-
-## reboot ##
