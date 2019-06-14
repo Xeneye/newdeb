@@ -1,5 +1,11 @@
 #!/bin/bash
 
+echo "------------------"
+echo "Part 2 starting..."
+echo "------------------"
+sleep 3
+clear
+
 echo "-----------------------"
 echo "Installing xfce-desktop"
 echo "-----------------------"
@@ -91,5 +97,5 @@ clear
 echo "---------------------------"
 echo "All done, rebooting shortly"
 echo "---------------------------"
-sleep 10 
+sleep 5 
 sudo reboot
