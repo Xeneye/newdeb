@@ -1,5 +1,11 @@
 #!/bin/bash
 
+echo "------------------"
+echo "Part 1 starting..."
+echo "------------------"
+sleep 3
+clear
+
 ## system.d cache tweaks
 echo "Adding System.D Tweaks"	
 echo "vm.swappiness = 10
