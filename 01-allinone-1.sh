@@ -18,5 +18,5 @@ clear
 echo "----------------------------------"
 echo "Part 1 all done, rebooting shortly"
 echo "----------------------------------"
-sleep 10 
+sleep 5
 sudo reboot
