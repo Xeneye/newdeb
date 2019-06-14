@@ -6,6 +6,9 @@ sudo apt install -y apt-listbugs apt-listchanges
 
 sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
 clear
+
+echo "-----------------"
 echo "Rebooting Shortly"
-sleep 10 
+echo "-----------------"
+sleep 5
 sudo reboot
