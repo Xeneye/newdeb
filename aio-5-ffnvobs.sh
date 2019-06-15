@@ -55,3 +55,17 @@ echo "Complete, OBS-Studio should now have hardware encoding available..."
 echo "-------------------------------------------------------------------"
 sleep 3
 clear
+
+
+echo "--------------"
+echo "Update Cleanup"
+echo "--------------"
+
+sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
+clear
+
+echo "------------"
+echo "Final Reboot"
+echo "------------"
+sleep 5
+sudo reboot
