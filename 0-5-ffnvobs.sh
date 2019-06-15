@@ -6,7 +6,7 @@ echo "------------------------------"
 sleep 3
 clear
 
-sudo apt install make git
+sudo apt install -y make git
 mkdir ~/devel/ && cd ~/devel/
 git clone https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
 cd nv-codec-headers
@@ -30,6 +30,7 @@ cd ..
 rm -f libavcodec-extra* libavfilter-extra*
 sudo dpkg -i *.deb
 sudo apt-mark hold ffmpeg ffmpeg-doc libavcodec-dev libavcodec58 libavfilter7 libavfilter-dev libavformat58 libavformat-dev libavresample4 libavresample-dev libavutil-dev libavutil56 libavdevice58 libavdevice-dev libswscale5 libswscale-dev libswresample3 libswresample-dev libpostproc55 libpostproc-dev
+clear
 
 echo "-----------------------"
 echo "Testing installation..."
