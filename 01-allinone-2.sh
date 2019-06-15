@@ -27,7 +27,7 @@ clear
 echo "------------------------"
 echo "Installing nvidia driver"
 echo "------------------------"
-sudo apt install -y nvidia-driver vulkan-utils libcuda1 libnvidia-encode1
+sudo apt install -y nvidia-driver vulkan-utils libcuda1 libnvidia-encode1 nvidia-cuda-toolkit
 clear
 
 echo "------------------"
