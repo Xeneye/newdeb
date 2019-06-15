@@ -39,7 +39,7 @@ clear
 echo "------------------"
 echo "Installing usrapps"
 echo "------------------"
-sudo apt install -y firefox-esr firefox-esr-l10n-en-gb thunderbird thunderbird-l10n-en-gb lightning-l10n-en-gb hunspell hunspell-en-gb hyphen-en-gb telegram-desktop soundconverter audacity quodlibet gimp inkscape blender handbrake steam
+sudo apt install -y firefox-esr firefox-esr-l10n-en-gb thunderbird thunderbird-l10n-en-gb lightning-l10n-en-gb hunspell hunspell-en-gb hyphen-en-gb telegram-desktop soundconverter audacity quodlibet python-paho-mqtt python3-paho-mqtt kakasi gimp inkscape blender handbrake steam
 clear
 
 echo "-----------------"
