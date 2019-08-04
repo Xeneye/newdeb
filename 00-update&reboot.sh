@@ -17,6 +17,10 @@ deb http://deb.debian.org/debian/ buster-backports main non-free contrib
 deb-src http://deb.debian.org/debian/ buster-backports main non-free contrib
 " | sudo tee /etc/apt/sources.list
 
+## blacklist hdmi audio
+echo "blacklist hdmi audio"	
+sudo echo "blacklist snd_hda_intel" | sudo tee /etc/modprobe.d/blacklist.conf
+
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
 clear
 
