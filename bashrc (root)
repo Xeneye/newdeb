@@ -367,6 +367,6 @@ PROMPT_COMMAND=bash_prompt_command
 bash_prompt
 unset bash_prompt
 
-
-
 ### EOF ###
+
+alias ll='ls -al'
